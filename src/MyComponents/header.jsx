@@ -16,8 +16,6 @@ function Navbar() {
         <div className="tab">Contact</div>
      </div>
     </div>
-
-
   );
 }
 

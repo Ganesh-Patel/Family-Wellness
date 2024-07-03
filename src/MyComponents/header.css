@@ -4,6 +4,9 @@ body, html {
   padding: 0;
   width: 100%;
 }
+/* .tab.active{
+  background-color: #993224;
+} */
 .header{
   width: 100%;
 }
@@ -17,13 +20,12 @@ body, html {
   margin: 0;
   padding:20px 0px;
   cursor: pointer;
-
 }
-
 
 .nav {
   margin-top: 1rem;
   display: flex;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
   background-color: #9b9898;
@@ -52,4 +54,19 @@ body, html {
 .content {
   padding: 20px;
   background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 630px) {
+
+  .tab {
+
+    color: white;
+    padding: 14px 0; 
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
 }
